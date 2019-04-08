@@ -30,7 +30,7 @@ To install the driver:
 Before running FPGA design synthesis, please make sure Intel Quartus Prime Pro 16.0 is properly installed and license are available. 
 
 ```bash
-    cd chai_benchmarks/BS
+    cd OpenCL-FPGA/BS
     aoc -v BS.cl -o bin_a10_BS/BS.aocx
 ```
 This will take several hours to finish. After synthesis is done, copy the generated `aocx` file back to the benchmark directory: 
@@ -41,7 +41,7 @@ This will take several hours to finish. After synthesis is done, copy the genera
 ## Compile host code
 Under the directory of each benchmark, there is one `Makefile`. To compile OpenCL host code, simply navigate to the benchmark directory and `make`. For example, to compile the OpenCL host code for benchmark `BS`:
 ```bash
-    cd chai_benchmarks/BS
+    cd OpenCL-FPGA/BS
     make
 ```
 An executable file `bs` will be generated. To clean the make: 
@@ -53,7 +53,7 @@ An executable file `bs` will be generated. To clean the make:
 
 To run a specific benchmark, simply `cd` to the benchmark and execute the host executable. For example, to execute benchmark `BS`:
 ```bash
-    cd chai_benchmarks/BS
+    cd OpenCL-FPGA/BS
     ./bs
 ```
 
