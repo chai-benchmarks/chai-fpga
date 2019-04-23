@@ -71,10 +71,10 @@ The example output is:
     Deallocation Time (ms): 6.451
 ```
 
-# Reference
-You can refer to our paper for further details. 
+# Citation
+Please cite the following paper if you find our benchmark suite useful: 
 
-Sitao Huang, Li-Wen Chang, Izzat El Hajj, Simon Garcia de Gonzalo, Juan Gómez Luna, Sai Rahul Chalamalasetti, Mohamed El-Hadedy, Dejan Milojicic, Onur Mutlu, Deming Chen, and Wen-mei Hwu. Analysis and Modeling of Collaborative Execution Strategies for Heterogeneous CPU-FPGA Architectures. Proceedings of *10th ACM/SPEC International Conference on Performance Engineering (**ICPE 2019**)*, 2019. 
+Sitao Huang, Li-Wen Chang, Izzat El Hajj, Simon Garcia de Gonzalo, Juan Gómez Luna, Sai Rahul Chalamalasetti, Mohamed El-Hadedy, Dejan Milojicic, Onur Mutlu, Deming Chen, and Wen-mei Hwu. Analysis and Modeling of Collaborative Execution Strategies for Heterogeneous CPU-FPGA Architectures. Proceedings of *10th ACM/SPEC International Conference on Performance Engineering (**ICPE 2019**)*, 2019. [\[paper\]](https://people.inf.ethz.ch/omutlu/pub/CPU-FPGA-collaborative-execution-strategies_icpe19.pdf)
 
 
 
